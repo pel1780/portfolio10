@@ -1,0 +1,25 @@
+.sec {
+    padding: 100px 0;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn_o {
+    background: transparent;
+    border: none;
+    outline: none;
+    line-height: 1;
+    cursor: pointer;
+}
+
+* {
+    outline: 1px solid t-omato;
+}
