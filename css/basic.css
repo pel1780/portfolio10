@@ -20,6 +20,11 @@
     cursor: pointer;
 }
 
+p {
+    line-height: 1.4;
+    word-break: keep-all;
+}
+
 * {
     outline: 1px solid t-omato;
 }
