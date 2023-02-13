@@ -11,6 +11,7 @@ body {
     margin: 0 auto;
 }
 
+
 .flex {
     display: flex;
     flex-direction: row;
@@ -31,4 +32,23 @@ p {
 
 * {
     outline: 1px solid t-omato;
+}
+
+@media(max-width: 768px) {
+    .sec {
+        padding: 100px 0;
+    }
+
+    .inner {
+        width: auto;
+        margin: 0 15px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    * {
+        outline: 1px solid t-omato;
+    }
 }
