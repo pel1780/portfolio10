@@ -15,7 +15,10 @@ $(function () {
         $(this).toggleClass('on');
         if ($('.header button').hasClass('on')) {
             $('.header').addClass('bg')
+        } else if (sct == 0) {
+            $('.header').removeClass('bg')
         }
+
     });
 
     $('.header .gnb>ul>li>a').on('click', function (e) {

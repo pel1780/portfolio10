@@ -174,6 +174,7 @@
         opacity: 0;
         height: 0;
         transition: none;
+        margin: 0 15px;
     }
 
     .header .gnb:hover>ul>li>ul {
@@ -195,7 +196,7 @@
     }
 
     .header .gnb>ul>li>ul>li>a {
-        padding: 0 50px;
+        padding: 0 35px;
     }
 
     .header button a {
@@ -220,13 +221,14 @@
 .mainVisual .video_case {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%;
+    height: 80vh;
 }
 
 .mainVisual .visual_video {
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
     height: 100%;
 }
 
@@ -236,6 +238,7 @@
         position: relative;
         width: 100%;
         padding-bottom: 66.25%;
+        height: auto;
     }
 
     .mainVisual .visual_video {
