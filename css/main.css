@@ -6,7 +6,6 @@
     line-height: 100px;
     height: 100px;
     color: #fff;
-    transition: 0.5s;
     z-index: 999;
 }
 
@@ -43,10 +42,9 @@
     left: 0;
     right: 0;
     background: #fff;
-    height: 350px;
-    opacity: 0;
+    height: 0;
     z-index: -999;
-    transition: 0.5s;
+    transition: 0.6s;
 }
 
 .header::after {
@@ -61,17 +59,17 @@
 }
 
 .header.on::before {
-    opacity: 1;
+    height: 350px;
 }
 
 .header.bg::after,
 .header.on::after {
     height: 1px;
-    transition: 0.5s;
 }
 
 .header .gnb>ul>li {
     position: relative;
+    transition: 0.5s;
 }
 
 .header .gnb>ul>li>a {
@@ -87,10 +85,10 @@
     right: 0;
     visibility: hidden;
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
-.header .gnb:hover>ul>li ul {
+.header .gnb:hover>ul>li>ul {
     visibility: visible;
     opacity: 1;
 }
